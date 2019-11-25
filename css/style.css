@@ -181,7 +181,10 @@ margin: 8px 20px 30px 20px;
     padding: 120px 0;
 }
 .content-box-md{
- padding: 50px 0;   
+ padding: 100px 0;   
+}
+.content-box-sm{
+    padding: 90px 0;
 }
 /*===================================
 |||||||||||Vertical heading
@@ -373,7 +376,7 @@ ul.social-list li:nth-child(3) a:hover{
 ====================================*/
 .owl-nav{
     display: flex;
-    margin-left: 43%;
+    margin-left: 45%;
     font-size: 24px;
 }
 .owl-nav .owl-prev{
@@ -877,11 +880,25 @@ background: #f4c613;
     transform: translateY(-10px);
 }
 
+/* Client section */
+#clients .horizontal-heading{
+    margin-bottom: 30px;
+}
 
+#client-list {
+    padding: 0;
+}
 
+.client{
+    padding: 0 10px;
+    max-width: 150px;
+    margin: 0 auto;
+    line-height: 100px;
+}
 
-
-
+.client img{
+    display: inline-block !important;
+}
 
 
 
