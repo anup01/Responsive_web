@@ -113,6 +113,17 @@ $(function() {
 });
 
 
+// Stat Section
+$(function(){
+    $('.counter').counterUp({
+        beginAt: 1,
+        delay: 10,
+        time:1000,
+        // formatter: function (n) {
+        //     return n.replace(/,/g, '0');
+        //   }
+    });
+});
 
 
 
