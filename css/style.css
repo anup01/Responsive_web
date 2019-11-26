@@ -361,11 +361,11 @@ ul.social-list li:nth-child(1) a:hover{
     border-color: transparent;
 }
 ul.social-list li:nth-child(2) a:hover{
-    background: #3b5998;
+    background: #00acee;
     border-color: transparent;
 }
 ul.social-list li:nth-child(3) a:hover{
-    background: #3b5998;
+    background: #db4a39;
     border-color: transparent;
 }
 .icon{
@@ -960,6 +960,64 @@ background: #f4c613;
     padding: 10px;
     border-radius: 5px;
 }
+/* Contact */
+/* Contact left */
+#left-contact p,
+#contact-right p{
+    font-size: 16px;
+}
+ul.office-details {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+ul.office-details li{
+    font-family: "Open Sans", sans-serif;
+    margin: 12px;
+    display: flex;
+}
+ul.office-details li i{
+    font-size: 20px;
+    width: 45px;
+}
+#offices ul.social-list li a {
+    color: #1a1b1d;
+    border: 1px solid #212226;
+    text-align: center;
+}
+#offices ul.social-list li a:hover{
+    color: #fff;
+    border-color: transparent;
+}
+
+/* Right side contact section */
+#contact-right{
+    padding: 25px 30px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 6px;   
+}
+#contact-right h4{
+    font-size: 24px;
+}
+#contact-right p{
+    margin-bottom: 25px;
+}
+#contact-right form .form-control{
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: 24px;
+}
+#contact-right form textarea.form-control{
+    min-height: 164px;
+}
+
+/* Google Map */
+#map{
+    height: 600px;
+}
+
 
 
 
