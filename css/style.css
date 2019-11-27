@@ -152,7 +152,15 @@ margin: 8px 20px 30px 20px;
     background-color: #212226;
     border: 1px solid #212226;
 }
-
+.btn-back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    font-size: 22px;
+    border-radius: 4px;
+    display: none;
+}
 
 /*===================================
 |||||||||||Arrow down

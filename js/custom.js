@@ -180,11 +180,15 @@ $(function() {
             $("nav").addClass("white-nav-top");
             // show dark logo
             $(".navbar-brand img").attr("src", "img/logo-dark.png");
+            //show back to top button
+            $("#back-to-top").fadeIn();
         }
         else{
             // hide white navbar
             $("nav").removeClass("white-nav-top");
             $(".navbar-brand img").attr("src", "img/logo.png");
+            // hide back to top button
+            $("#back-to-top").fadeOut();
 
         }
     }
@@ -198,11 +202,11 @@ $(function() {
          var section_id = $(this).attr("href");
          $("html, body").animate({
              scrollTop: $(section_id).offset().top - 65
-         }, 1250);
+         }, 1250, "easeOutQuad");
     })
 });
 
-
+// Essing Effect
 
 
 
