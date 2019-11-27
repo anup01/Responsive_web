@@ -140,8 +140,31 @@ $(function() {
     });
 });
 
-
-
+// Google Map
+// $(window).on('load', function() {
+//     //map veriables
+//     var addressString = '230 Broadway, NY, New York 10007, USA';
+//     var myLatlng = {lat: 40.712742, lng: -74.005966};
+//     // Render google map
+//     var map = new google.maps.Map(document.getElementById('map'), {
+//         zoom: 11,
+//         center: myLatlng
+//     });
+//     // add marker
+//     var marker = new google.maps.Marker({
+//         position: myLatlng,
+//         map: map,
+//         title: "Click to See address"
+//     });
+//     //add info window
+//         var infoWindow = new google.maps.infoWindow({
+//             content: addressString
+//         });
+//         // show info window when user click marker
+//         marker.addListener('click', function() {
+//             infoWindow.open(map, marker);
+//         });
+// });
 
 
 
