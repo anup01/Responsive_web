@@ -166,6 +166,34 @@ $(function() {
 //         });
 // });
 
+// navigation bar show and hide white navbar
+$(function() {
+    showHideNav(); // show hide nav on page load
+    $(window).scroll(function() {
+        showHideNav(); // show hide nav on window's scroll
+    });
+
+    function showHideNav(){
+        // alert('you just scrolled');
+        if($(window).scrollTop() > 50 ){
+            //show white navbar
+            $("nav").addClass("white-nav-top");
+            // show dark logo
+            $(".navbar-brand img").attr("src", "img/logo-dark.png");
+        }
+        else{
+            // hide white navbar
+            $("nav").removeClass("white-nav-top");
+            $(".navbar-brand img").attr("src", "img/logo.png");
+
+        }
+    }
+});
+
+
+
+
+
 
 
 
