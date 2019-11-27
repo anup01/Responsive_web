@@ -1065,7 +1065,10 @@ ul.navbar-nav li > a:focus {
 .white-nav-top ul.navbar-nav li > a:hover {
     color: #f4c613 !important;
 }
-
+.white-nav-top ul.navbar-nav li > a.active {
+    color: #f4c613 !important;
+    font-weight: 500;
+}
 
 
 

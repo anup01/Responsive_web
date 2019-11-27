@@ -190,7 +190,17 @@ $(function() {
     }
 });
 
-
+// Smooth Scrolling
+$(function() {
+    $("a.smooth-scroll").click(function(ev){
+         ev.preventDefault();
+         //get section id #about, #services etc..
+         var section_id = $(this).attr("href");
+         $("html, body").animate({
+             scrollTop: $(section_id).offset().top - 65
+         }, 1250);
+    })
+});
 
 
 
