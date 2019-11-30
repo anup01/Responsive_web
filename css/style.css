@@ -487,6 +487,9 @@ ul.social-list li:nth-child(3) a:hover{
 /*===================================
 |||||||||||Services 02 (Resposive tab)
 ====================================*/
+.service h5{
+    color: #f4c613;
+}
 #services-02{
     background: #f4f4f4;
 }

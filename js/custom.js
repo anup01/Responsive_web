@@ -110,6 +110,9 @@ $(function() {
             },
             768: {
                 item: 1
+            },
+            576: {
+                item: 1
             }
         }
     });
@@ -207,10 +210,9 @@ $(function() {
              scrollTop: $(section_id).offset().top - 65
          }, 1250, "easeOutQuad");
     })
+    
+    
 });
-
-// Essing Effect
-
 
 
 
