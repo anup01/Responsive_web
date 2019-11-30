@@ -1,0 +1,122 @@
+/* Bootstrap 4 media quires */
+
+/* Extra large devices (desktop and laptop) */
+@media (min-width: 1200px){
+/* no need to change anything */
+}
+
+/* large Devices (landscape tablets and large desktop) */
+@media (min-width: 992px) and (max-width: 1199px){
+/* services */
+#services-tab .tab-bg{
+    padding: 8px 30px;
+    min-height: 300px;
+}
+
+.serivce-tab p{
+    line-height: 20px;
+}
+.strategy-tab-bg, .design-tab-bg {
+    padding: 5px 50px 50px 30px !important;
+    
+}
+/* .design-tab-bg{
+     padding: 5px 50px 10px 30px !important;
+    margin-bottom: 70px !important;
+} */
+}
+
+/* Medium Devices (landscape tablets and medium desktop) */
+@media (min-width: 768px) and (max-width: 991px){
+    #home-heading h1{
+        font-size: 41px;
+    }
+    #home-text p{
+        font-size: 13px;
+    }
+    .btn-general{
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+    }
+    .vertical-heading h2{
+        font-size: 29px;
+    }
+    #tech-statement h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    /* services */
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .r-tabs-accordion-title a{
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+    /* active tabs */
+    .r-tabs-accordion-title.r-tabs-state-active a{
+    color: #f4c613;
+    font-weight: 700;
+    border-bottom: 3px solid #f4c613;
+    padding-bottom: 5px;
+    transition: border-color 300ms linear;
+    }
+    .author .author-img{
+        margin-top: 22px;
+    }
+
+    /* pricing tag */
+    .pricing-table .price h2{
+        margin: 0 0 0 6px;
+        font-size: 35px;
+    }
+    .blog-post h4{
+        font-size: 20px;
+    }
+    .blog-post p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .blog-post .post-meta p{
+        line-height: 14px;
+        font-size: 9px;
+        margin: -2px;
+    }
+}
+
+/* small Devices (landscape tablets and medium desktop) */
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
