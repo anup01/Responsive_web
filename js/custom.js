@@ -105,14 +105,11 @@ $(function() {
                 items: 1
             },
             // breakpoint from 480 up
-            480: {
-                items: 2
+            575: {
+                items: 1
             },
             768: {
-                item: 1
-            },
-            576: {
-                item: 1
+                items: 2
             }
         }
     });
@@ -135,14 +132,20 @@ $(function(){
 //CLients
 $(function() {
     $("#client-list").owlCarousel({
-        items: 6,
+        items: 1,
         autoplay: false,
         smartSpeed: 700,
         loop: true,
         autoplayHoverPause: true,
         nav: true,
         dots: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        responsive : {
+            480 : { items : 3  }, // from zero to 480 screen width 4 items
+            768 : { items : 6  }, // from 480 screen widthto 768 6 items
+            1024 : { items : 6   // from 768 screen width to 1024 8 items
+            }
+        }
     });
 });
 
